@@ -1,0 +1,35 @@
+.style-btn-exit {
+    background: url("../../svg/logout.svg") center no-repeat;
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.style-btn-exit:active {
+    transform: scale(0.95);
+}
+
+.style-user-name-text {
+    position: absolute;
+    left: calc(100% - 50% - 55px);
+    top: 30px;
+}
+
+.style-btn-back {
+    position: absolute;
+    background: url("../../svg/undo.svg") center no-repeat;
+    border: none;
+    outline: none;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    left: 10px;
+}
+
+.style-btn-back:active {
+    transform: scale(0.95);
+}

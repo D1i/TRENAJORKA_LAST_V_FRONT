@@ -1,0 +1,56 @@
+.style-container {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.style-field-container {
+    position: relative;
+    display: flex;
+}
+
+.style-setFieldName {
+    background: #cccccc;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    padding: 5px 10px;
+    position: absolute;
+    width: 100px;
+    top: -15px;
+    z-index: 1;
+}
+
+.style-containerName {
+    background: #fff;
+    position: absolute;
+    top:-10px;
+    left: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.style-fieldContent {
+    outline: none;
+    border: none;
+    border: 2px solid #ccc;
+    padding: 5px 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+
+.style-clearBtn {
+    background: #ccc;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.style-clearBtn:active {
+    background: #bbb;
+}

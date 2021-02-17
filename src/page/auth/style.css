@@ -1,0 +1,27 @@
+.style-auth-page-container {
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    background: #fff;
+    border: none;
+    outline: none;
+    margin: auto;
+    display: flex;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.style-icon-vk {
+    background: url("../../svg/vk-reproductor.svg") center no-repeat;
+    background-size: 25px;
+    border: none;
+    outline: none;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.style-icon-vk:active {
+    transform: scale(0.9);
+    padding-bottom: 2px;
+}
